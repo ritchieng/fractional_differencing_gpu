@@ -1,6 +1,7 @@
 # Fractional Differencing with GPU (GFD)
-
-![](./assets/gfd_logo_transparent_resize.png)
+<p align="center">
+    <img src="./assets/gfd_logo_transparent_resize.png"/>
+</p>
 
 <img src="https://img.shields.io/badge/license-MIT-green.svg"/>
 <img src="https://img.shields.io/badge/version-v0.1-blue.svg"/>
