@@ -5,7 +5,6 @@
 
 This is a GPU implementation of fractional differencing (we call it GFD). It allows rapid large-scale implementation of fractional differencing to minimize memory loss while achieving stationary for time series data.
 
-We've created a simple function in the notebook, pass your Pandas dataframe into the function and it will return fractionally differenced time series dataframe. 
 
 ## Experiment Our Code Instantly Now on Google Colaboratory
 
@@ -14,6 +13,22 @@ We've created a simple function in the notebook, pass your Pandas dataframe into
 </a>
 
 Easily run the whole tutorial in a self-contained Jupyter Notebook on Google Colaboratory by pressing the button above. The whole process of including pulling all data, dependencies and running the code for GFD is contained in the notebook, allowing you to run this notebook as is.
+
+## Simple GFD Function
+
+We've created a simple function in the notebook, pass your Pandas dataframe into the function and it will return fractionally differenced time series dataframe where d is the fractional differencing value and floor is the minimum value to ignore for fixed window fractional differencing. 
+
+**GPU implementation**
+
+```python
+gfd, weights = frac_diff_gpu(df_raw, d=0.5, floor=5e-5)
+```
+
+**CPU implementation**
+
+```python
+fd, weights = frac_diff(df_raw, d=0.5, floor=5e-5)
+```
 
 ## Important Links to Presentation and Code Repository
 - Code Repository: https://github.com/ritchieng/fractional_differencing_gpu
@@ -28,5 +43,10 @@ Easily run the whole tutorial in a self-contained Jupyter Notebook on Google Col
 ## Release Notes
 This is a early beta release, we'll be releasing a stable release (v1.0) soon containing tests, more benchmarks, pip package and more. Please be patient!
 
-## Citation
-If you use the code code, please use the following citation.
+## Citation Reference to Repository/Presentation
+If you use the code, please cite using this link alongside Prado/Hosking papers.
+
+## Credits and Special Thanks
+1. NVIDIA (Ettikan, Chris and Nick), Amazon AWS, ensemblecap.ai, and NExT++ (NUS School of Computing)
+2. Marcos Lopez de Prado  for his recent push on the use of fractional differencing of which this guide is based on.
+3. Hosking for his paper in 1981 on fractional differencing.
