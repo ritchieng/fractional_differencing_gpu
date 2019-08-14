@@ -7,7 +7,7 @@ This is a GPU implementation of fractional differencing (we call it GFD). It all
 
 ## Experiment Our Code Instantly Now on Google Colaboratory
 
-<a href="https://github.com/ritchieng/fractional_differencing_gpu/notebooks/gpu_fractional_differencing.ipynb">
+<a href="https://github.com/ritchieng/fractional_differencing_gpu/blob/master/notebooks/gpu_fractional_differencing.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
