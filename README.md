@@ -1,16 +1,15 @@
 # Fractional Differencing with GPU (GFD)
 
-![](./assets/gfd_logo_transparent.png)
-
 <img src="https://img.shields.io/badge/license-MIT-green.svg"/>
 <img src="https://img.shields.io/badge/version-v0.1-blue.svg"/>
 
 This is a GPU implementation of fractional differencing (we call it GFD). It allows rapid large-scale implementation of fractional differencing to minimize memory loss while achieving stationary for time series data.
 
+![](./assets/gfd_logo_transparent.png)
+
 ## Experiment Our Code Instantly Now on Google Colaboratory
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ritchieng/fractional_differencing_gpu/blob/master/notebooks/gpu_fractional_differencing.ipynb)
-
 
 Easily run the whole tutorial in a self-contained Jupyter Notebook on Google Colaboratory by pressing the button above. The whole process of including pulling all data, dependencies and running the code for GFD is contained in the notebook, allowing you to run this notebook as is.
 
