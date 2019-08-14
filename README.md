@@ -1,11 +1,11 @@
 # Fractional Differencing with GPU (GFD)
 
+![](gfd_logo_transparent_resize.png)
+
 <img src="https://img.shields.io/badge/license-MIT-green.svg"/>
 <img src="https://img.shields.io/badge/version-v0.1-blue.svg"/>
 
 This is a GPU implementation of fractional differencing (we call it GFD). It allows rapid large-scale implementation of fractional differencing to minimize memory loss while achieving stationary for time series data.
-
-![](./assets/gfd_logo_transparent.png)
 
 ## Experiment Our Code Instantly Now on Google Colaboratory
 
@@ -40,7 +40,7 @@ fd, weights = frac_diff(df_raw, d=0.5, floor=5e-5)
 - Package GFD functions into a pip package for quick running
 
 ## Release Notes
-This is a early beta release, we'll be releasing a stable release (v1.0) soon containing tests, more benchmarks, pip package and more. Please be patient!
+This is an early beta release, we'll be releasing a stable release (v1.0) soon containing tests, more benchmarks, pip package and more. Please be patient!
 
 ## Citation Reference to Repository/Presentation
 If you use the code, please cite using this [link](https://www.researchgate.net/publication/335159299_GFD_GPU_Fractional_Differencing_for_Rapid_Large-scale_Stationarizing_of_Time_Series_Data_while_Minimizing_Memory_Loss) alongside Prado/Hosking papers.
