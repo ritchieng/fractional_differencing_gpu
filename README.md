@@ -46,8 +46,6 @@ This is an early beta release, we'll be releasing a stable release (v1.0) soon c
 ## Citation Reference to Repository/Presentation
 If you use the code, please cite using this [link](https://www.researchgate.net/publication/335159299_GFD_GPU_Fractional_Differencing_for_Rapid_Large-scale_Stationarizing_of_Time_Series_Data_while_Minimizing_Memory_Loss) alongside Prado/Hosking papers.
 
-DOI: 10.13140/RG.2.2.19959.98727
-
 ## Credits and Special Thanks
 1. NVIDIA (Ettikan, Chris and Nick), Amazon AWS, ensemblecap.ai, and NExT++ (NUS School of Computing)
 2. Marcos Lopez de Prado  for his recent push on the use of fractional differencing of which this guide is based on.
