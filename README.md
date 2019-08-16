@@ -51,3 +51,8 @@ If you use the code, please cite using this [link](https://www.researchgate.net/
 1. NVIDIA (Ettikan, Chris and Nick), Amazon AWS, ensemblecap.ai, and NExT++ (NUS School of Computing)
 2. Marcos Lopez de Prado  for his recent push on the use of fractional differencing of which this guide is based on.
 3. Hosking for his paper in 1981 on fractional differencing.
+
+## Help Wanted
+1. Feel free to raise any issue for feedback on bugs or improvements.
+2. I'll be implementing more critical GPU-accelerated functions, we are looking for collaborators.
+3. If you find this repository useful, please star it!
