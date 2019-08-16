@@ -35,6 +35,7 @@ fd, weights = frac_diff(df_raw, d=0.5, floor=5e-5)
 ## Important Links to Presentation and Code Repository
 - Code Repository: https://github.com/ritchieng/fractional_differencing_gpu
 - Presentation: https://www.researchgate.net/publication/335159299_GFD_GPU_Fractional_Differencing_for_Rapid_Large-scale_Stationarizing_of_Time_Series_Data_while_Minimizing_Memory_Loss
+- HTML Notebook (easy reading on mobile, collaboration with deep learning wizard): https://www.deeplearningwizard.com/machine_learning/gpu/gpu_fractional_differencing/
 
 ## GFD Repository Plans
 - Run GFD on thousands of time series datasets, creating a grid of t-stats and time benchmarks.
