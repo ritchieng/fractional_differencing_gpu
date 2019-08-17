@@ -18,7 +18,9 @@ Easily run the whole tutorial in a self-contained Jupyter Notebook on Google Col
 
 We've created a simple function in the notebook, pass your Pandas dataframe into the function and it will return fractionally differenced time series dataframe.
     - `d`: fractional differencing value, 0 means no differencing, above 1 means integer differencing, and anything between 0 to 1 is fractional differencing.
-    - `floor`: minimum value to ignore for fixed window fractional differencing. 
+    - `floor`: minimum value to ignore for fixed window fractional differencing.
+    
+Take note that your dataframe (`df_raw`) is required to have an index such that it's from lag k (oldest time) to lag 0 (latest time) from top to the bottom of the dataframe accordingly for this function to work appropriately 
 
 **GPU implementation**
 
