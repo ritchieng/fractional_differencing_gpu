@@ -40,16 +40,16 @@ fd, weights = frac_diff(df_raw, d=0.5, floor=5e-5)
 ```
 
 ## Summary Results
-Number of data points and time taken in seconds.
+Number of data points and time taken in seconds. You can easily reach such similar multipliers on Google Colab or on more powerful machines via GCP, AWS or your local servers/machines.
 
- |**100k**|**1m**|**10m**|**100m**
-:-----:|:-----:|:-----:|:-----:|:-----:
-GCP 8x vCPUs|9.18|89.62|891.24|9803.11
-GCP 1x T4 GPU|1.44|1.33|3.75|29.88
-GCP 1x V100 GPU|0.93|1.07|3.17|23.81
- | | | | 
-Speed-up 1x T4 vs 8x vCPUs|6.38|67.38|237.66|328.08
-Speed-up 1x V100 vs 8x vCPUs|9.87|83.76|281.15|411.72
+| ****                          | **100k** | **1m**  | **10m**  | **100m** |
+|:-----------------------------:|:--------:|:-------:|:--------:|:--------:|
+| GCP 8x vCPUs                  | 9\.18    | 89\.62  | 891\.24  | 9803\.11 |
+| GCP 1x T4 GPU                 | 1\.44    | 1\.33   | 3\.75    | 29\.88   |
+| GCP 1x V100 GPU               | 0\.93    | 1\.07   | 3\.17    | 23\.81   |
+| Speed\-up 1x T4 vs 8x vCPUs   | 6\.38x   | 67\.38x | 237\.66x | 328\.08  |
+| Speed\-up 1x V100 vs 8x vCPUs | 9\.87x   | 83\.76x | 281\.15x | 411\.72x |
+
 
 ## Important Links to Presentation and Code Repository
 - Code Repository: https://github.com/ritchieng/fractional_differencing_gpu
