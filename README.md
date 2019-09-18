@@ -57,13 +57,14 @@ fd, weights = frac_diff(df_raw, d=0.5, floor=5e-5)
 
 ## GFD Repository Plans
 - Make GFD more efficient
-    - Chunk size implementation: currently just throwing the entire chunk matching the size of the dataset's length.
-    - And more...
+    - Chunk size implementation: currently just throwing the entire chunk matching the size of the dataset's length (haha).
 - Run GFD on thousands of time series datasets, creating a grid of t-stats and time benchmarks.
 - Package GFD functions into a pip package for quick running
 
 ## Release Notes
-This is an early beta release, we'll be releasing a stable release (v1.0) soon containing tests, more benchmarks, pip package and more. Please be patient!
+The next release will include multiple 1D blocks in a 1D grid instead of a single 1D block of 518/1024 threads. This will help users understand multiple blocks vs a single block.
+
+Beyond the next release, we'll be moving to explain the use of more than 1 dimension blocks/grids.
 
 ## Citation Reference to Repository/Presentation
 If you use the code, please cite using this [link](https://www.researchgate.net/publication/335159299_GFD_GPU_Fractional_Differencing_for_Rapid_Large-scale_Stationarizing_of_Time_Series_Data_while_Minimizing_Memory_Loss) alongside Prado/Hosking papers.
