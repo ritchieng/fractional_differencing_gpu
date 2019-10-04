@@ -25,6 +25,9 @@ Number of data points and time taken in seconds. You can easily reach such simil
 | Speed\-up 1x T4 vs 8x vCPUs   | 6\.38x   | 67\.38x | 237\.66x | 328\.08  |
 | Speed\-up 1x V100 vs 8x vCPUs | 9\.87x   | 83\.76x | 281\.15x | 411\.72x |
 
+## Optimized Version by NVIDIA
+Full credits to NVIDIA where they built on our work and further speed things up resulting in almost 10000x speed-up over a CPU implementation. You can find the more complex and less intuitive but highly performance version of GFD by NVIDIA in this [notebook](https://github.com/ritchieng/fractional_differencing_gpu/blob/master/notebooks/nvidia_gpu_fractional_differencing.ipynb).
+
 ## Simple GFD Function
 
 We've created a simple function in the notebook, pass your Pandas dataframe into the function and it will return fractionally differenced time series dataframe.
